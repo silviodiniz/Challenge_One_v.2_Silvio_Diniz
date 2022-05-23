@@ -1,0 +1,83 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 85%;
+    margin: 8px 16px 10px 16px;
+}
+
+header {
+    height: 8px;
+}
+
+body {
+    background: color #F3F5FC;
+}
+
+main {
+    display: flex;
+    margin: 8px 16px 10px 16px;
+}
+
+.input-texto {
+    margin-top: 40px;
+}
+
+div.informacao>h6 {
+    display: inline;
+    margin: 10px 8px 0 5px;
+}
+
+.mensagem {
+    position: absolute;
+    width: 336px;
+    height: 454px;
+    left: 458px;
+    top: 63px;
+    display: block;
+    margin-left: 20px;
+    margin-right: 80px; 
+    margin-top: 16px;
+    margin-bottom: 5px; 
+    background-size: 300px;  
+    background-position: 25% 75%;
+    background-image: url('boneco.png'); 
+    background-repeat: no-repeat;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.encriptar {
+    background-color: darkblue;
+    color: white;
+    border-radius: 24px;
+    font-size: 14px;
+}
+
+.desencriptar {
+    margin-left: 10px;
+    background-color: lightgray;
+    color: darkblue;
+    border-radius: 24px;
+    font-size: 14px;
+}
+
+.informacao {
+    font-size: 12px;
+ }
+
+ .curiosidades {
+  margin: -340px 16px 10px 796px;
+  position: absolute;
+  background: url('figura1.png') no-repeat; 
+  background-position-y: 80px; 
+  background-position-x: 25px; 
+  background-size: 120%; 
+} 
+
+ 
+  
